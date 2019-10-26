@@ -15,10 +15,11 @@
 |`cp fromDir toDir`| copy files |
 |`ls `|list files and folders in your current dir|
 |`ls -a`|list all files including *hidden* files : in linux hidden files/folders start with a dot eg `.file`|
+|`pwd`|show current working dir|
 
-`.gitignore` This is not a command -- this is a *hidden* file(starts with a dot) where the names of all the files should be stored which you want to ignore in your commits and hence it is ignored and not recorded, pushed , or pulled eg : `node_modules`
+`.gitignore` This is not a command -- this is a *hidden* file(starts with a dot) where the names of all the files should be stored which you want to ignore in your commits and hence it is ignored and not recorded, pushed , or pulled eg : `node_modules` . this file should be in the same dir as your `.git` folder
 
-**This config is usually stored in your home folder in a hidden file called `.gitconfig` You can manually edit this file to change config. If you are using college proxy and want to remove it for some reason set proxy as an empty string `""` if you dont your proxy might still be active**
+**This config is usually stored in your home folder in a hidden file called `.gitconfig` You can manually edit this file to change config. If you are using college proxy and want to remove it for some reason set proxy as an empty string `""` if you dont your proxy might still be active **
 
 
 ## Configuration settings
