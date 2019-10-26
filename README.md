@@ -23,16 +23,17 @@
 
 | command     | description|
 | --      | -- |
-| `git init `| initialize a git repository in the current directory: **important**  it creates a hidden folder called .git in your working dir and this is where all your commit logs will be saved. all your commits will be deleted if u deleted this folder | 
+| `git init `| initialize a git repository in the current directory: **important**  it creates a hidden folder called `.git` in your working dir and this is where all your commit logs will be saved. all your commits will be deleted if u deleted this folder | 
 |`git add filename`        | set a file as ready for commit |
+|`git add .`|set all files in current dir as ready for commit|
 |`git commit -m "any message here"`| commit the current state of files in the logs.This means that your current state of files has been recorded |
 |`git status`|check your current status of files and your branch , uncommited files etc|
 |`git log`|check your commit history *partial*|
 |`git checkout commitid/branchname`|go back to a certain commit with id `commitid` or branch `branchname`|
 |`git reflog`|check your *overall* commit history|
-|`git remote add origin https://yourremoteorign/username/projectname`|adds your remote repository addresss in locally for easy access - **origin** is the name of the variable where this addr is stored. it can be any name like origin2, hub etc|
+|`git remote add origin https://yourremoteorign/username/projectname`|adds your remote repository addresss locally for easy access - ``origin`` is the name of the variable where this addr is stored. it can be any name like origin2, hub etc|
 |`git remote remove originName`|remove remote will name `originName`|
-|`git remote -v`|list all your locally stored remotes|
+|`git remote -v`|list all your locally stored remote names and their address|
 |`git branch `| list your branches : your current branch is marked in green : your default branch is called ***master***|
 |`git branch Test`| create a new branch called Test : your current branch will be cloned to Test|
 |`git merge Test` while in *master*| pull changes from Test branch and commit in master|
