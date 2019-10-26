@@ -19,6 +19,19 @@
 |`.gitignore`|This is not a command -- this is a file where the names of all the files should be stored which you want to ignore in your commits and hence it is ignored and not recorded, pushed , or pulled eg : `node_modules`
 
 
+## Configuration settings
+
+`git config --global user.name "your username"`
+
+`git config --global user.password "your password"`
+
+``git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port``
+
+`git config --global http.proxy https://proxyUsername:proxyPassword@proxy.server.com:port`
+
+`git config --list --global`  to list your current global settings
+
+
 ### Common git commands
 
 | command     | description|
