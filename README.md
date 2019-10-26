@@ -13,6 +13,10 @@
 |`rm -rf foldername`| remove folder|
 |`mv fromDir toDir` |move folder fromDir to toDir, can also be used for renaming files and folders |
 |`cp fromDir toDir`| copy files |
+|`ls `|list files and folders in your current dir|
+|`ls -a`|list all files including *hidden* files : in linux hidden files/folders start with a dot eg `.file`|
+
+|`.gitignore`|This is not a command -- this is a file where the names of all the files should be stored which you want to ignore in your commits and hence it is ignored and not recorded, pushed , or pulled eg : `node_modules`
 
 
 ### Common git commands
