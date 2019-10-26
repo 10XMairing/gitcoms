@@ -16,7 +16,7 @@
 |`ls `|list files and folders in your current dir|
 |`ls -a`|list all files including *hidden* files : in linux hidden files/folders start with a dot eg `.file`|
 
-|`.gitignore`|This is not a command -- this is a file where the names of all the files should be stored which you want to ignore in your commits and hence it is ignored and not recorded, pushed , or pulled eg : `node_modules`
+`.gitignore` This is not a command -- this is a *hidden* file(starts with a dot) where the names of all the files should be stored which you want to ignore in your commits and hence it is ignored and not recorded, pushed , or pulled eg : `node_modules`
 
 
 ## Configuration settings
