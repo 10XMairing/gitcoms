@@ -18,6 +18,8 @@
 
 `.gitignore` This is not a command -- this is a *hidden* file(starts with a dot) where the names of all the files should be stored which you want to ignore in your commits and hence it is ignored and not recorded, pushed , or pulled eg : `node_modules`
 
+**This config is usually stored in your home folder in a hidden file called `.gitconfig` You can manually edit this file to change config. If you are using college proxy and want to remove it for some reason set proxy as an empty string `""` if you dont your proxy might still be active**
+
 
 ## Configuration settings
 
