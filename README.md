@@ -30,7 +30,7 @@
 
 ``git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port``
 
-`git config --global http.proxy https://proxyUsername:proxyPassword@proxy.server.com:port`
+`git config --global https.proxy https://proxyUsername:proxyPassword@proxy.server.com:port`
 
 `git config --list --global`  to list your current global settings
 
