@@ -26,7 +26,7 @@
 
 `git config --global user.name "your username"`
 
-`git config --global user.password "your password"`
+`git config --global user.email "youremail@domain.com"`
 
 ``git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port``
 
