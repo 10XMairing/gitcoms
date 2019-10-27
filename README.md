@@ -7,6 +7,7 @@
 | `cd ./dirname` | go to dirname in current directory |
 |`cd ..`|go back one level down (back)|
 |`cd ../dirname`|go to dirname on level down(back)|
+|`cd`|go to home dir|
 |`cd ~/dirname`|go to dirname in your home dir|
 |`touch {filename.extension}`| create file with name.ext eg:: `touch index.html`|
 |`rm filename.extension`| remove file with given name|
